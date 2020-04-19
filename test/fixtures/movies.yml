@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Title: MyString
+  Date: 2020-04-19
+  Theater: MyString
+  Evaluation: 1.5
+  Comment: MyText
+
+two:
+  Title: MyString
+  Date: 2020-04-19
+  Theater: MyString
+  Evaluation: 1.5
+  Comment: MyText
