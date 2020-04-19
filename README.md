@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I made this for submission. This app is for reviewing movies. But I had almost no time to attach 
+functions. So maybe I will update this many times from now on....
 
-Things you may want to cover:
+This app can...
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+・Record the title of movie, date, theater, evaluation and some comment.
