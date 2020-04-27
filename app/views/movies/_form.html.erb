@@ -26,10 +26,21 @@
     <%= form.text_field :Theater, id: :movie_Theater %>
   </div>
 
-  <div class="field">
-    <%= form.label :Evaluation %>
-    <%= form.text_field :Evaluation, id: :movie_Evaluation %>
+  <div class="field" id="star">
+    <%= form.label :Evaluation, class:'col-md-3 col-form-label' %>
+    <%= form.hidden_field :Evaluation, id: :movie_Evaluation %>
   </div>
+
+  <script>
+  $('#star').raty({
+    size     : 36,
+    starOff:  '<%= asset_path('star-off.png') %>',
+    starOn : '<%= asset_path('star-on.png') %>',
+    starHalf: '<%= asset_path('star-half.png') %>',
+    scoreName: 'post[rate]',
+    half: true,
+  });
+  </script>
 
   <div class="field">
     <%= form.label :Comment %>
