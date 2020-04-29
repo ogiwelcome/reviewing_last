@@ -6,12 +6,12 @@ class MoviesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get index" do
-    get index_url
+    get root_path
     assert_response :success
   end
 
   test "should get new" do
-    get new_url
+    get new_movie_path
     assert_response :success
   end
 
@@ -29,7 +29,7 @@ class MoviesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get edit" do
-    get edit_url(@movie)
+    get edit_movie_path(@movie)
     assert_response :success
   end
 
