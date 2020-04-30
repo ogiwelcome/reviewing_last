@@ -45,4 +45,10 @@ class MoviesControllerTest < ActionDispatch::IntegrationTest
 
     assert_redirected_to movies_url
   end
+  
+  test "should not save movie without something" do
+    movie = Movie.new
+    assert_not movie.save
+  end
+  
 end
